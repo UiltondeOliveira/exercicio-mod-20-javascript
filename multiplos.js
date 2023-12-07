@@ -9,6 +9,8 @@ function somaDeMultiplos(num1, num2) {
     return soma
   }
 
-  let num1 = 5, num2 = 7
+/*   let num1 = 5, num2 = 7
   const soma = somaDeMultiplos(num1, num2)
-  console.log("A soma dos múltiplos de " + num1 + " ou " + num2 + " abaixo de 1000 é: " + soma)
+  console.log("A soma dos múltiplos de " + num1 + " ou " + num2 + " abaixo de 1000 é: " + soma) */
+
+  module.exports = { somaDeMultiplos }

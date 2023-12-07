@@ -15,7 +15,9 @@ function indiceMenorNumero(array) {
 let numeros = [5, 100, 50, 8, 3, 12, 20, 4, 109]
 
 const indiceMaior = indiceMaiorNumero(numeros)
-console.log("O índice do maior número é: "+ indiceMaior)
+//console.log("O índice do maior número é: "+ indiceMaior)
 
 const indiceMenor = indiceMenorNumero(numeros)
-console.log("O índice do menor número é: "+ indiceMenor)
+//console.log("O índice do menor número é: "+ indiceMenor)
+
+module.exports = { indiceMaior, indiceMenor }

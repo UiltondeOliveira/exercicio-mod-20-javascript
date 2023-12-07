@@ -8,5 +8,7 @@ function calculadoraMDC (numero1, numero2){
         return numero1
 }
 
-let numero1 = 20, numero2 = 37
-console.log('O MDC de '+ numero1 + ' e '+ numero2 + ' é: ' + calculadoraMDC(numero1, numero2))
+/* let numero1 = 20, numero2 = 37
+console.log('O MDC de '+ numero1 + ' e '+ numero2 + ' é: ' + calculadoraMDC(numero1, numero2)) */
+
+module.exports = { calculadoraMDC }
